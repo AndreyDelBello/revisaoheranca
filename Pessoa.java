@@ -8,19 +8,19 @@ public class Pessoa{
         return nome;
     }
     public void setNome(String nome) {
-        nome = this.nome;
+        this.nome = nome;
     }
     public String getEndereco() {
         return endereco;
     }
     public void setEndereco(String endereco) {
-        endereco = this.endereco;
+        this.endereco = endereco;
     }
     public String getTelefone() {
         return telefone;
     }
     public void setTelefone(String telefone) {
-        telefone = this.telefone;
+        this.telefone = telefone;
     }
-    
+
 }
